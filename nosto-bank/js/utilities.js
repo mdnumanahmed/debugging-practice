@@ -5,7 +5,7 @@ function getInputFieldValueById(inputFieldId) {
   return inputFieldValue;
   inputField.value = "";
 }
-
+ 
 function getTextElementValueById(elementId) {
   const textElement = document.getElementById(elementId);
   const textElementValueString = textElement.innerText;
