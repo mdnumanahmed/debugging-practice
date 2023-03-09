@@ -9,7 +9,7 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
   /* 
     1. get previous deposit total by id
 
-    */
+    */ 
   const previousDepositTotal = getTextElementValueById("deposit-total");
 
   // calculate new deposit total
