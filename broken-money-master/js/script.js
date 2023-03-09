@@ -31,7 +31,7 @@ const calculateExpense = () => {
     document.getElementById("total-expense").innerText = expense;
     document.getElementById("balance").innerText = balance;
   }
-};
+}; 
 
 const calculateSavings = () => {
   const income = document.querySelector("#income").value;
