@@ -24,7 +24,7 @@ function removeItem() {
   itemList.removeChild(li);
 }
 
-// change color
+// change color 
 function changeColor() {
   const List = document.querySelectorAll("li");
   const lastPickedColor = colorInput.value;
